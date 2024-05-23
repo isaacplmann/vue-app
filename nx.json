@@ -1,0 +1,30 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "test:e2e": {
+      "outputs": ["{projectRoot}/test-results"],
+      "cache": true
+    },
+    "build-only": {
+      "inputs": [
+        "{workspaceRoot}/src/**/*",
+        "{workspaceRoot}/package.json",
+        "{workspaceRoot}/tsconfig.app.json",
+        "{workspaceRoot}/tsconfig.json",
+        "{workspaceRoot}/vite.config.ts"
+      ],
+      "outputs": ["{projectRoot}/dist"],
+      "cache": true
+    },
+    "test:unit": {
+      "cache": true
+    },
+    "type-check": {
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    }
+  },
+  "defaultBase": "main"
+}
