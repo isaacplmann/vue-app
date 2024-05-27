@@ -1,8 +1,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "products": ["modules/products/src/index.ts"]
+      "products": [
+        "modules/products/src/index.ts"
+      ]
     }
   }
 }
