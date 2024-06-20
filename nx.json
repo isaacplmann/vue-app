@@ -2,7 +2,9 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "test:e2e": {
-      "outputs": ["{projectRoot}/test-results"],
+      "outputs": [
+        "{projectRoot}/test-results"
+      ],
       "cache": true
     },
     "build-only": {
@@ -13,7 +15,9 @@
         "{workspaceRoot}/tsconfig.json",
         "{workspaceRoot}/vite.config.ts"
       ],
-      "outputs": ["{projectRoot}/dist"],
+      "outputs": [
+        "{projectRoot}/dist"
+      ],
       "cache": true
     },
     "test:unit": {
@@ -38,5 +42,6 @@
         "serveStaticTargetName": "serve-static"
       }
     }
-  ]
+  ],
+  "nxCloudAccessToken": "YTQ3MDQwYjktYmZkNS00ZDQ4LTg1OTMtODQ3ZTc4ODI4YjMyfHJlYWQtd3JpdGU="
 }
