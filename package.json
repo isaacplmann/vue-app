@@ -33,7 +33,9 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nx/devkit": "19.0.6",
     "@nx/js": "19.0.6",
+    "@nx/playwright": "19.0.6",
     "@nx/vite": "19.0.6",
     "@nx/vue": "19.0.6",
     "@nx/web": "19.0.6",

@@ -3,6 +3,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "@/*": [
+        "./src/*"
+      ],
       "products": [
         "modules/products/src/index.ts"
       ]

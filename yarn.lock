@@ -1480,6 +1480,18 @@
   resolved "https://registry.yarnpkg.com/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.0.6.tgz#bce2c93be34b9a82d1619b0b437666f3f7dded5e"
   integrity sha512-BGNAXvNvxzNqqjHb0Kba5m27Z6xYdMqnPGusAx3GYfEGzSe+K06yMQpTUxjQ4oKAQQrVJYq9Eyyf3lWrqmyeCg==
 
+"@nx/playwright@19.0.6":
+  version "19.0.6"
+  resolved "https://registry.yarnpkg.com/@nx/playwright/-/playwright-19.0.6.tgz#93ee40d6b88f6a2b05531484959a43f6479daadc"
+  integrity sha512-MQTUAABy0p9yeqHh/QKCBQqYK7A4dAOVxZbizCnRJelQAvaSQdsVhouAhQyfZji6XIp5KxQIoHdc3xXsowUrAQ==
+  dependencies:
+    "@nx/devkit" "19.0.6"
+    "@nx/eslint" "19.0.6"
+    "@nx/js" "19.0.6"
+    "@phenomnomnominal/tsquery" "~5.0.1"
+    minimatch "9.0.3"
+    tslib "^2.3.0"
+
 "@nx/vite@19.0.6":
   version "19.0.6"
   resolved "https://registry.yarnpkg.com/@nx/vite/-/vite-19.0.6.tgz#5e84298343b92fedd4d490bed6330a19ecdf92be"
